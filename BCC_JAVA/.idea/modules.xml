@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/L1_Output.iml" filepath="$PROJECT_DIR$/L1_Output.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BCC_JAVA.iml" filepath="$PROJECT_DIR$/BCC_JAVA.iml" />
     </modules>
   </component>
 </project>
