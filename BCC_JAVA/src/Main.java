@@ -3,10 +3,13 @@ public class Main {
     public static void main(String[] args) {
         //1.1
         UnitOneLOne practiceOne = new UnitOneLOne();
+        System.out.println(practiceOne);
 
-        //1.2
+        //1.2 User Input and Variables.
         Scanner scan = new Scanner(System.in);
         UnitOneLTwo student = new UnitOneLTwo(scan);
         student.getStudentName();
+        //1.3 Data Types.
+        UnitOneLThree studentProject = new UnitOneLThree(scan);
     }
 }
