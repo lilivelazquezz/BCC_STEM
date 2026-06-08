@@ -14,15 +14,43 @@ public class UnitOneLThree { // Data Types
     Boolean (boolean): Takes up 1 bit of memory and represents true or false values.
     Constants: Variables whose values cannot be changed after being set, declared using the final keyword in Java. final double PI = 3.14; Integer.MAX_VALUE, Integer.MIN_VALUE.
      */
-    public void getStudentProject() {
-        //Primitive data types: int, double, boolean.
 
-        //Reference or Class data types: String, Integers, Custom classes.
+    public void getMadlibs() {
+        // Reference or Class data types: String, Integers, Custom classes.
+        System.out.println("What is your superhero name?");
+        String userName = scan.nextLine();
+        // Primitive data types: int, double, boolean.
+        System.out.println("How many years have you been hiding on Earth?");
+        int age = scan.nextInt();
+        System.out.println("How many pet dinosaurs do you own?");
+        int numberOfPets = scan.nextInt();
+        System.out.println("Is it true or false?");
+        boolean like = scan.nextBoolean();
+        System.out.println("Can you confirm or change, true or false?");
+        boolean secondLike = scan.nextBoolean();
+        System.out.println("Type a number with decimals:");
+        double battery = scan.nextDouble();
+
+        System.out.println(" My name is "+ userName + ", and I am " + age +
+                "\n I currently have " + numberOfPets +" pets, and things get interesting at home.\n It is "
+                + like +" that my pet secretly plots world domination.\n It is " + secondLike +
+                " that my favorite number has special powers.\n Oh noo! My battery is "
+                + battery + "%. I hope I can make it to the end of the day. \n Life is normal… or at least I think it is.`");
     }
     /*
     Syntax Errors: Mistakes in Java code rules (e.g., missing semicolons), detected by the compiler.
     Logic Errors: The program runs but produces incorrect results due to faulty logic.
     Runtime Errors: Errors that occur during execution, such as exceptions, which can crash the program if not handled.
+     */
+    /*
+    int 4 bytes (32 bits)
+    double 8 bytes (64 bits)
+    boolean JVM dependent (true or false)
+    byte 1 byte (8 bits)
+    short 2 bytes (16 bits)
+    char 2 bytes (16 bits)
+    float 4 bytes (32 bits)
+    long 8 bytes (64 bits)
      */
     /*
     https://math.hws.edu/javanotes/c2/s2.html#basics.2.2

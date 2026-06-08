@@ -13,11 +13,10 @@ public class UnitOneLOne {
         System.out.println("Hello World!"); //Prints in a new line
         System.out.print("Unit "); //Prints inline
         System.out.print("One"); //Prints inline
-
-        /*
-        https://math.hws.edu/javanotes/c2/s4.html#basics.4
-        https://docs.oracle.com/javase/tutorial/getStarted/intro/definition.html
-        https://www.biography.com/scientist/grace-hopper
-         */
     }
+    /*
+    https://math.hws.edu/javanotes/c2/s4.html#basics.4
+    https://docs.oracle.com/javase/tutorial/getStarted/intro/definition.html
+    https://www.biography.com/scientist/grace-hopper
+     */
 }

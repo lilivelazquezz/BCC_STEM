@@ -2,16 +2,17 @@ import java.util.Scanner;
 public class UnitOneLTwo { // User Input and Variables
     private Scanner scan;
 
-    //Constructor
+    // Constructor
     public UnitOneLTwo(Scanner scan) {
         this.scan = scan;
     }
 
     public void getStudentName() {
         // 1.2 Variables are the storage location that holds a value.
+        // A semicolon (;) indicates where a statement ends.
         // Syntax: Data Type, Name variable = value.
-        //Assignment operator (=) initializes and assigns the value to the variable.
-        //Primitive data types variables.
+        // Assignment operator (=) initializes and assigns the value to the variable.
+        // Primitive data types variables.
         int age = 16;
         double height = 5.9;
 
@@ -21,8 +22,8 @@ public class UnitOneLTwo { // User Input and Variables
         System.out.println("Student name: ");
 
         String studentName = scan.nextLine(); //Method that enables your program to read input text and store it in studentName.
-        System.out.println("Student name: " + studentName +  " is a student from " + school + " " + age + " years old, and " + height + " tall");
-        scan.close();
+        System.out.println("Student name: " + studentName + " is a student from " + school + " " + age + " years old, and " + height + " tall");
+        // scan.close();
     }
     /*
     https://math.hws.edu/javanotes/c2/s4.html#basics.4.6
