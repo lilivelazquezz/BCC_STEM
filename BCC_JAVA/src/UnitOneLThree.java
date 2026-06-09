@@ -17,18 +17,18 @@ public class UnitOneLThree { // Data Types
 
     public void getMadlibs() {
         // Reference or Class data types: String, Integers, Custom classes.
-        System.out.println("What is your superhero name?");
+        System.out.print("What is your superhero name?");
         String userName = scan.nextLine();
         // Primitive data types: int, double, boolean.
-        System.out.println("How many years have you been hiding on Earth?");
+        System.out.print("How many years have you been hiding on Earth?");
         int age = scan.nextInt();
-        System.out.println("How many pet dinosaurs do you own?");
+        System.out.print("How many pet dinosaurs do you own?");
         int numberOfPets = scan.nextInt();
-        System.out.println("Is it true or false?");
+        System.out.print("Is it true or false?");
         boolean like = scan.nextBoolean();
-        System.out.println("Can you confirm or change, true or false?");
+        System.out.print("Can you confirm or change, true or false?");
         boolean secondLike = scan.nextBoolean();
-        System.out.println("Type a number with decimals:");
+        System.out.print("Type a number with decimals:");
         double battery = scan.nextDouble();
 
         System.out.println(" My name is "+ userName + ", and I am " + age +

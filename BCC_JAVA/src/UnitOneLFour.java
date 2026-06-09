@@ -7,9 +7,9 @@ public class UnitOneLFour {
         this.scan = scan;
     }
     public void getCal() {
-        System.out.println("Add a number:");
+        System.out.print("Add a number:");
         int firstNumber = scan.nextInt();
-        System.out.println("Add a second number smaller:");
+        System.out.print("Add a second number smaller:");
         int secondNumber = scan.nextInt();
 
         // integers

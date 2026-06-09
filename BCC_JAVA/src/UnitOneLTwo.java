@@ -1,6 +1,10 @@
 import java.util.Scanner;
 public class UnitOneLTwo { // User Input and Variables
     private Scanner scan;
+    // Add import import java.util.Scanner;
+    // Use this Syntax for the main class Scanner variableName = new Scanner(System.in);
+    // https://www.w3schools.com/java/java_user_input.asp
+    // Create a variable class object String input = variableName.nextLine();  OR int input = variableName.nextInt();
 
     // Constructor
     public UnitOneLTwo(Scanner scan) {
