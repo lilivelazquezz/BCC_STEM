@@ -47,4 +47,8 @@ public class UnitOneLSix {
     double wrongResult = (double) (dividend / divisor); // Result: 2.0
     System.out.println(wrongResult + " Wrong result; review the comments.");
     }
+    /*
+    https://docs.oracle.com/javase/specs/jls/se7/html/jls-5.html
+    https://math.hws.edu/javanotes/c2/s5.html#basics.5.6
+     */
 }
