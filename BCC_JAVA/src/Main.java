@@ -11,16 +11,19 @@ public class Main {
         student.getStudentName(); */
 
         // 1.3 Data Types.
-       /* UnitOneLThree miniMad = new UnitOneLThree(scan);
-       miniMad.getMadlibs(); */
+        /* UnitOneLThree miniMad = new UnitOneLThree(scan);
+        miniMad.getMadlibs(); */
 
         // 1.4 Calculations
-       /* UnitOneLFour calculator = new UnitOneLFour(scan);
+        /* UnitOneLFour calculator = new UnitOneLFour(scan);
         calculator.getCal(); */
 
         // 1.5 Modular
-        UnitOneLFive remainderOptions = new UnitOneLFive(scan);
-        remainderOptions.getRemainder();
+        // UnitOneLFive remainderOptions = new UnitOneLFive(scan);
+        // remainderOptions.getRemainder();
 
+        // 1.6 Numeric Casting
+        UnitOneLSix numbers = new UnitOneLSix(scan);
+        numbers.getNumbers();
     }
 }
